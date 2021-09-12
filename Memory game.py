@@ -10,7 +10,7 @@ pygame.init()
 display.set_caption('Memory game')
 screen = display.set_mode((512, 512))
 
-matched = image.load('Memory/other_assets/matched.png')
+matched = image.load('other_assets/matched.png')
 
 running = True
 tiles = [Animal(i) for i in range(0, gc.NUM_TILES_TOTAL)]
