@@ -6,7 +6,7 @@ NUM_TILES_SIDE = 4
 NUM_TILES_TOTAL = 16
 MARGIN = 4
 
-ASSET_FOLDER = 'C:/Users/katar/OneDrive/Desktop/Coding training/Python/Guided projects/Memory/assets'
+ASSET_FOLDER = 'Memory/assets'
 ASSET_FILES = [x for x in os.listdir(ASSET_FOLDER) if x[-3:].lower() == 'png']
 
 assert len(ASSET_FILES) == 8
